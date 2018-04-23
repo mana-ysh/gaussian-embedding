@@ -79,8 +79,6 @@ def train(args):
             for neg_sample in neg_samples:
                 loss = model.update(pos_sample, neg_sample)
                 sum_loss += loss
-                # logger.info('loss: {}'.format(loss))
-            # logger.info('processing {} samples in this epoch'.format(i+1))
             print('processing {} samples in this epoch'.format(i+1))
         logger.info('sum loss: {}'.format(sum_loss))
         logger.info('{} sec/epoch for training'.format(time.time()-start))

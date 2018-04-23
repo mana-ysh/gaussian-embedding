@@ -1,7 +1,3 @@
-"""
-TODO:
-- アフィン変換するrelationのパラメータはとりあえずバイアス無しで
-"""
 
 
 import numpy as np

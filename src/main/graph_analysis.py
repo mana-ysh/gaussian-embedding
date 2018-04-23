@@ -39,9 +39,6 @@ def path_analysis(args):
     print('Correlation Coefficient: {}'.format(np.corrcoef(n_rel, n_tail)[0, 1]))
 
 
-
-
-
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
     p.add_argument('--triple')
